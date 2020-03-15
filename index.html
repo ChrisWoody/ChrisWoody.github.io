@@ -23,112 +23,113 @@
 
     <style>
         body {
-            padding-top: 2rem;
+            background-color: #f4f4f4;
+        }
+
+        .body-content {
+            background-color: white;
+        }
+
+        .title {
+            text-align: center;
         }
     </style>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
-
-        <div class="container">
-            <div class="navbar-nav">
-                <div class="nav-item">
-                    <a class="nav-link" href="/">Home</a>
-                </div>
-            </div>
-            <div class="float-right">
-                <a href="https://www.linkedin.com/in/chris-wood-520350163/" rel="noopener noreferrer" target="_blank">
-                    <img width="32" height="32" src="images/In-White-32px-TM.png" alt="LinkedIn" />
-                </a>
-                &nbsp;
-                <a href="https://github.com/ChrisWoody/" rel="noopener noreferrer" target="_blank">
-                    <img width="32" height="32" src="images/GitHub-Mark-Light-32px-plus.png" alt="GitHub" />
-                </a>
-            </div>
-        </div>
-    </nav>
 
     <div class="container body-content">
-        <div class="jumbotron">
-            <h1>Chris Wood</h1>
-            <p class="lead">Just a personal collection of games and programming projects I've made, enjoy!</p>
+        <h1 class="title">Chris Wood</h1>
+        <div class="title">
+            <a href="https://www.linkedin.com/in/chris-wood-520350163/" rel="noopener noreferrer" target="_blank"><img
+                    width="32" height="32" src="images/LI-In-Bug.png" alt="LinkedIn" /></a>
+            <a href="https://github.com/ChrisWoody/" rel="noopener noreferrer" target="_blank"><img width="32"
+                    height="32" src="images/GitHub-Mark-32px.png" alt="GitHub" /></a>
         </div>
-
-        <div class="card-columns">
-            <div class="card">
-                <h3 class="card-header">Project Grimaldus</h3>
-                <div class="card-body">
-                    <h5 class="card-subtitle text-muted">This website!</h5>
-                    <span class="badge badge-dark">HTML</span>
-                    <span class="badge badge-dark">CSS</span>
-                    <p class="card-text">It has changed hosting providers and backend servers over time to now
+        <p></p>
+        <p class="lead title">Welcome to my website, here's a collection of games and programming projects I've made,
+            enjoy!</p>
+        <br />
+        <table class="table">
+            <thead class="thead-light">
+                <tr>
+                    <th scope="col">Project</th>
+                    <th scope="col"></th>
+                    <th scope="col" style="width: 40%;">Description</th>
+                    <th scope="col" style="width: 20%;">Links</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">Project Sicarius</th>
+                    <td><img class="card-img-top" src="images/project-sicarius-example.jpg" alt="project-sicarius" />
+                    </td>
+                    <td>
+                        <span class="badge badge-dark">Game</span>
+                        <span class="badge badge-dark">C#</span>
+                        <span class="badge badge-dark">Unity</span>
+                        <span class="badge badge-dark">Web GL</span>
+                        </br>
+                        Play as an angel who has to take out the invading demons in this 2D game made in Unity.</td>
+                    <td><a class="btn btn-primary" href="https://chriswoody.github.io/project-sicarius-build/"
+                            rel="noopener noreferrer" target="_blank">Play</a>
+                        <a class="btn btn-info" href="https://github.com/ChrisWoody/project-sicarius"
+                            rel="noopener noreferrer" target="_blank">View Code</a></td>
+                </tr>
+                <tr>
+                    <th scope="row">Simon Says</th>
+                    <td><img class="card-img-top" src="images/simon-says-logo.jpg" alt="simon-says" /></td>
+                    <td>
+                        <span class="badge badge-dark">Game</span>
+                        <span class="badge badge-dark">HTML</span>
+                        <span class="badge badge-dark">JS</span>
+                        </br>
+                        I've made this in Unity + WebGL previously, but was keen to learn more about Javascript and the
+                        Canvas, it even has audio!</td>
+                    <td><a class="btn btn-primary" href="https://chriswoody.github.io/simon-says/"
+                            rel="noopener noreferrer" target="_blank">Play</a>
+                        <a class="btn btn-info" href="https://github.com/ChrisWoody/simon-says"
+                            rel="noopener noreferrer" target="_blank">View Code</a>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">Project Grimaldus</th>
+                    <td><img class="card-img-top" src="images/project-grimaldus.jpg" alt="simon-says" /></td>
+                    <td>
+                        <span class="badge badge-dark">HTML</span>
+                        <span class="badge badge-dark">CSS</span>
+                        </br>
+                        It's this website! It has changed hosting providers and backend servers over time to now
                         just be a lightweight static website hosted on GitHub. The goal of this website is to
-                        showcase projects I've done and to play around with website best practices.</p>
-                    <a class="btn btn-info" href="https://github.com/ChrisWoody/ChrisWoody.github.io"
-                        rel="noopener noreferrer" target="_blank">View Source Code</a>
-                </div>
-            </div>
-            <div class="card">
-                <h3 class="card-header">Simon Says</h3>
-                <img class="card-img-top" src="images/simon-says-logo.jpg" alt="simon-says" />
-                <div class="card-body">
-                    <h5 class="card-subtitle text-muted">A Javascript implementation of the popular game</h5>
-                    <span class="badge badge-dark">HTML</span>
-                    <span class="badge badge-dark">JS</span>
-                    <p class="card-text">I've made this in Unity + WebGL before but was keen to learn more about
-                        Javascript and the canvas, it even has audio!</p>
-
-                    <a class="btn btn-primary" href="https://chriswoody.github.io/simon-says/" rel="noopener noreferrer"
-                        target="_blank">Play</a>
-                    <a class="btn btn-info" href="https://github.com/ChrisWoody/simon-says" rel="noopener noreferrer"
-                        target="_blank">View Source Code</a>
-                </div>
-            </div>
-            <div class="card">
-                <h3 class="card-header">Project Sicarius</h3>
-                <img class="card-img-top" src="images/project-sicarius-example.jpg" alt="project-sicarius" />
-                <div class="card-body">
-                    <h5 class="card-subtitle text-muted">A 2D WebGL game made in Unity</h5>
-                    <span class="badge badge-dark">Game</span>
-                    <span class="badge badge-dark">C#</span>
-                    <span class="badge badge-dark">Unity</span>
-                    <span class="badge badge-dark">Web GL</span>
-                    <p class="card-text">Play as an angel who has to take out the invading demons</p>
-
-                    <a class="btn btn-primary" href="https://chriswoody.github.io/project-sicarius-build/"
-                        rel="noopener noreferrer" target="_blank">Play</a>
-                    <a class="btn btn-info" href="https://github.com/ChrisWoody/project-sicarius"
-                        rel="noopener noreferrer" target="_blank">View Source Code</a>
-                </div>
-            </div>
-            <div class="card">
-                <h3 class="card-header">What are these weird project names?</h3>
-                <div class="card-body">
-                    <p class="card-text">I'm a huge fan of Warhammer and reading books, and the Space Marine Battles
-                        series of books are the first Warhammer ones I've read. When I'm doing a major project I pick a
-                        major character from those books for the project's name. This includes Reclusiarch Merek
-                        Grimaldus of the Black Templars, or Captain Cato Sicarius of the Ultramarines.</p>
-                </div>
-            </div>
-            <div class="card">
-                <h3 class="card-header">Project Belial</h3>
-                <img class="card-img-top" src="images/Purging_of_Kadillus_novel_cover.jpg" alt="project-belial" />
-                <div class="card-body">
-                    <h5 class="card-subtitle text-muted">Simple website to visualise the books I own</h5>
-                    <span class="badge badge-dark">Blazor</span>
-                    <span class="badge badge-dark">Azure DevOps</span>
-                    <span class="badge badge-dark">Static hosting</span>
-                    <p class="card-text">I have heaps of books so the goal here was to understand what books I own and
+                        showcase projects I've done and to play around with website best practices.</td>
+                    <td><a class="btn btn-info" href="https://github.com/ChrisWoody/ChrisWoody.github.io"
+                            rel="noopener noreferrer" target="_blank">View Code</a></td>
+                </tr>
+                <tr>
+                    <th scope="row">Project Belial</th>
+                    <td><img class="card-img-top" src="images/project-belial.jpg" alt="project-belial" /></td>
+                    <td>
+                        <span class="badge badge-dark">Blazor</span>
+                        <span class="badge badge-dark">Azure DevOps</span>
+                        <span class="badge badge-dark">Static hosting</span>
+                        </br>
+                        I have heaps of books so the goal here was to understand what books I own and
                         which ones I've read. Also used this as an opportunity to try out some tech including Blazor
                         with static hosting, Azure DevOps for the CI/CD and Azure Functions that auto-scaled images of
-                        the books.</p>
+                        the books.</td>
+                    <td><a class="btn btn-info" href="https://github.com/ChrisWoody/project-belial"
+                            rel="noopener noreferrer" target="_blank">View Code</a></td>
+                </tr>
+            </tbody>
+        </table>
 
-                    <a class="btn btn-info" href="https://github.com/ChrisWoody/project-belial"
-                        rel="noopener noreferrer" target="_blank">View Source Code</a>
-                </div>
-            </div>
-        </div>
+        <hr />
+        <h4>What are these weird project names?</h4>
+        <p>I'm a huge fan of Warhammer and
+            reading books, and the Space Marine Battles series of books are the first Warhammer ones I've read. When
+            I'm doing a major project I pick a major character from those books for the project's name. This
+            includes Reclusiarch Merek Grimaldus of the Black Templars, or Captain Cato Sicarius of the
+            Ultramarines.</p>
 
         <hr />
         <footer>
