@@ -2,6 +2,11 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectGrimaldus", "ProjectGrimaldus\ProjectGrimaldus.csproj", "{C8FF6C27-528B-4167-AA2E-387F6D2A3273}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Other", "Other", "{D454435A-8CEC-4CEA-993B-5379D6E4C216}"
+ProjectSection(SolutionItems) = preProject
+	..\.github\workflows\publishwebsite.yml = ..\.github\workflows\publishwebsite.yml
+EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
