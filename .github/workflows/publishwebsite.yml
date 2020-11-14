@@ -14,7 +14,7 @@ jobs:
 
       - name: Publish app
         run:
-          cd src/ProjectGrimaldus/
+          cd src/ProjectGrimaldus/ \
           dotnet publish -c Release
 
       - name: GitHub Pages
