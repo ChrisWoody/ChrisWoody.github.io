@@ -13,8 +13,8 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Publish app
-        run:
-          cd src/ProjectGrimaldus/ \
+        run: |
+          cd src/ProjectGrimaldus/
           dotnet publish -c Release
 
       - name: GitHub Pages
