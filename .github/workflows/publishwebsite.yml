@@ -1,0 +1,35 @@
+name: DeployToGitHubPages
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Build Vue
+        run: |
+              npm ci
+              npm run build
+
+      - name: Upload Artifacts
+        uses: actions/upload-artifact@v2.2.1
+        with:
+          path: dist
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Download Artifacts
+        uses: actions/download-artifact@v2.0.7
+
+      - name: GitHub Pages
+        if: success()
+        uses: crazy-max/ghaction-github-pages@v1.5.1
+        with:
+          target_branch: gh-pages
+          build_dir: artifact
+        env:
+          GITHUB_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
