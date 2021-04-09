@@ -11,8 +11,7 @@
     </p>
     <p>
       Hello and welcome to my website! Here you'll find various projects I've worked on plus<br>
-      documentation on Azure or security topics. 
-      <a href="https://cli.vuejs.org" target="_blank" rel="noopener noreferrer">vue-cli documentation</a>.
+      documentation on Azure or security topics.
     </p>
 
     <h3 class="websitewip">Website status</h3>
@@ -22,6 +21,13 @@
     <h3>Games</h3>
     <p><a href="https://chriswoodcodes.net/SpearCat/" target="_blank" rel="noopener noreferrer">Spear Cat</a></p>
     <p><a href="https://chriswoodcodes.net/project-sicarius-build/" target="_blank" rel="noopener noreferrer">Project Sicarius</a></p>
+    <p><a href="https://chriswoodcodes.net/simon-says/" target="_blank" rel="noopener noreferrer">Simon Says</a></p>
+
+    <h3>Programming</h3>
+    <p><a href="https://github.com/ChrisWoody/ChrisWoody.github.io" target="_blank" rel="noopener noreferrer">This website!</a></p>
+
+    <h3>Learning</h3>
+    <p><a href="https://www.slideshare.net/ChrisWood262/oauth-2" target="_blank" rel="noopener noreferrer">OAuth 2 slides from a presentation I did</a></p>
   </div>
 </template>
 
