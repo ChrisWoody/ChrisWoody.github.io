@@ -3,10 +3,10 @@
     <h1>Chris Wood</h1>
     <p>
         <a href="https://www.linkedin.com/in/chris-wood-520350163/" target="_blank" rel="noopener noreferrer">
-          <img class="socials" src="../assets/linkedin-icon.svg" alt="linkedin">
+          <img class="smallicon" src="../assets/linkedin-icon.svg" alt="linkedin">
         </a>
         <a href="https://github.com/ChrisWoody/" target="_blank" rel="noopener noreferrer">
-          <img class="socials" src="../assets/github-icon.svg" alt="github">
+          <img class="smallicon" src="../assets/github-icon.svg" alt="github">
         </a>
     </p>
     <p>
@@ -36,7 +36,7 @@ export default {
 .websitewip {
     color: orange;
 }
-.socials {
+.smallicon {
   margin: 0px 10px 0px 10px;
   width: 30px;
 }
