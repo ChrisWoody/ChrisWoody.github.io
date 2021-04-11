@@ -1,5 +1,10 @@
 <template>
   <div class="hello">
+
+<h3 class="websitewip">Website status</h3>
+    <p>I'm in the process of migrating this website to Vue so you won't see everything here just yet <br>
+    but you can see the most interesting projects below.</p>
+
     <h1>Chris Wood</h1>
     <p>
         <a href="https://www.linkedin.com/in/chris-wood-520350163/" target="_blank" rel="noopener noreferrer">
@@ -14,26 +19,54 @@
       documentation on Azure or security topics.
     </p>
 
-    <h3 class="websitewip">Website status</h3>
-    <p>I'm in the process of migrating this website to Vue so you won't see everything here just yet <br>
-    but you can see the most interesting projects below.</p>
+    <h2>Games</h2>
+    <v-container style="max-width: 1000px">
+        <v-row no-gutters class="justify-center">
+            <v-col v-for="game in games" :key="game.title" cols="1" class="widecard">
+                <v-card class="pa-2 cardmargin" max-width="300">                    
+                    <v-img :src="game.imagesrc" class="white--text align-end" gradient="to bottom, rgba(0,0,0,.1), rgba(0,0,0,.4)">
+                        <v-card-title v-text="game.title"></v-card-title>
+                    </v-img>
+                    <v-card-text v-text="game.description"></v-card-text>
+                    <v-card-actions>
+                        <v-btn color="primary" elevation="2" :href="game.playurl" target="_blank" rel="noopener noreferrer">
+                            <v-icon left>
+                                mdi-controller-classic
+                            </v-icon>
+                            Play
+                        </v-btn>
+                        <v-btn color="secondary" elevation="2" :href="game.githuburl" target="_blank" rel="noopener noreferrer">
+                            <v-icon left>
+                                mdi-github
+                            </v-icon>
+                            View Code
+                        </v-btn>
+                    </v-card-actions>
+                </v-card>
+            </v-col>
+        </v-row>
+    </v-container>
 
-    <h3>Games</h3>
-    <p><a href="https://chriswoodcodes.net/SpearCat/" target="_blank" rel="noopener noreferrer">Spear Cat</a></p>
-    <p><a href="https://chriswoodcodes.net/project-sicarius-build/" target="_blank" rel="noopener noreferrer">Project Sicarius</a></p>
-    <p><a href="https://chriswoodcodes.net/simon-says/" target="_blank" rel="noopener noreferrer">Simon Says</a></p>
-
-    <h3>Programming</h3>
+    <h2>Programming</h2>
     <p><a href="https://github.com/ChrisWoody/ChrisWoody.github.io" target="_blank" rel="noopener noreferrer">This website!</a></p>
 
-    <h3>Learning</h3>
+    <h2>Learning</h2>
     <p><a href="https://www.slideshare.net/ChrisWood262/oauth-2" target="_blank" rel="noopener noreferrer">OAuth 2 slides from a presentation I did</a></p>
+
   </div>
 </template>
 
 <script>
 export default {
-  name: 'HomePage'
+  name: 'HomePage',
+
+  data: () => ({
+    games: [
+      { title: "Spear Cat", imagesrc: require("../assets/spear-cat-icon.jpg"), description: "Play as a Cat with a Spear to fight off the endless alien hordes", playurl: "https://chriswoodcodes.net/SpearCat/", githuburl: "https://github.com/ChrisWoody/SpearCat/"},
+      { title: "Project Sicarius", imagesrc: require("../assets/project-sicarius-icon.jpg"), description: "Play as an Angel who has to take out the invading Demons", playurl: "https://chriswoodcodes.net/project-sicarius-build/", githuburl: "https://github.com/ChrisWoody/project-sicarius/"},
+      { title: "Simon Says", imagesrc: require("../assets/simon-says-icon.jpg"), description: "Play the classic Simon Says game", playurl: "https://chriswoodcodes.net/simon-says/", githuburl: "https://github.com/ChrisWoody/simon-says/"},
+    ]
+  })
 }
 </script>
 
@@ -45,6 +78,12 @@ export default {
 .smallicon {
   margin: 0px 10px 0px 10px;
   width: 30px;
+}
+.widecard {
+    max-width: 100%;
+}
+.cardmargin {
+    margin: 5px;
 }
 
 h3 {
