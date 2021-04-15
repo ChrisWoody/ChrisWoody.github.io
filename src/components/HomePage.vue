@@ -10,7 +10,7 @@
           <img class="smallicon" src="../assets/linkedin-icon.svg" alt="linkedin">
         </a>
         <a href="https://github.com/ChrisWoody/" target="_blank" rel="noopener noreferrer">
-          <img class="smallicon" src="../assets/github-icon.svg" alt="github">
+          <img class="smallicon" src="../assets/GitHub-Mark-64px.png" alt="github">
         </a>
     </p>
     <p>
