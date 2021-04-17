@@ -1,7 +1,9 @@
 <template>
   <v-app>
     <v-app-bar app dark absolute color="secondary accent-4">
-      <v-toolbar-title>Chris Wood</v-toolbar-title>
+      <v-toolbar-title>
+        <v-btn href="/" text x-large>Chris Wood</v-btn>
+      </v-toolbar-title>
 
       <v-toolbar-items class="hidden-sm-and-down">
         <v-menu open-on-hover top>
@@ -12,7 +14,7 @@
             <v-list-item v-for="(game, index) in games" :key="index">
               <v-list-item-title>
                 <v-btn
-                  color="secondary"
+                  text
                   elevation="2"
                   :href="game.url"
                   target="_blank"
@@ -33,8 +35,7 @@
             <v-list-item v-for="(program, index) in programming" :key="index">
               <v-list-item-title :href="program.url">
                 <v-btn
-                  color="secondary"
-                  elevation="2"
+                  text
                   :href="program.url"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -54,8 +55,7 @@
             <v-list-item v-for="(learn, index) in learning" :key="index">
               <v-list-item-title>
                 <v-btn
-                  color="secondary"
-                  elevation="2"
+                  text
                   :href="learn.url"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -117,16 +117,24 @@ export default {
   data: () => ({
     games: [
       { title: "Spear Cat", url: "https://chriswoodcodes.net/SpearCat/" },
-      { title: "Project Sicarius", url: "https://chriswoodcodes.net/project-sicarius-build/" },
+      {
+        title: "Project Sicarius",
+        url: "https://chriswoodcodes.net/project-sicarius-build/",
+      },
       { title: "Simon Says", url: "https://chriswoodcodes.net/simon-says/" },
     ],
     programming: [
-      { title: "Project Grimaldus", url: "https://github.com/ChrisWoody/ChrisWoody.github.io" },
+      {
+        title: "Project Grimaldus",
+        url: "https://github.com/ChrisWoody/ChrisWoody.github.io",
+      },
     ],
     learning: [
-      { title: "OAuth 2 slides", url: "https://www.slideshare.net/ChrisWood262/oauth-2" },
+      {
+        title: "OAuth 2 slides",
+        url: "https://www.slideshare.net/ChrisWood262/oauth-2",
+      },
     ],
   }),
 };
-
 </script>
