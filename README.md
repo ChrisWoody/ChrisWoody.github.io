@@ -13,4 +13,4 @@ npm run build
 * Lazy, created basic repo outside of main repo and move generated files in, specifying Vue 2
   * `vue create hello-world`
 * Install Vue Router plugin, will overwrite the main page to add the routing (not used just yet)
-  * `npm install vue-router`
+  * `vue add router`
