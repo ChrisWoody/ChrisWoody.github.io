@@ -77,7 +77,7 @@
                     </v-img>
                     <v-card-text v-text="learning.description"></v-card-text>
                     <v-card-actions>
-                        <v-btn color="secondary" elevation="2" :href="learning.githuburl" target="_blank" rel="noopener noreferrer">
+                        <v-btn color="secondary" elevation="2" :href="learning.url" target="_blank" rel="noopener noreferrer">
                             <v-icon left>
                                 mdi-presentation
                             </v-icon>
