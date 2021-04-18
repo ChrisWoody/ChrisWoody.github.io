@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div>
     <HomePage/>
   </div>
 </template>
@@ -15,9 +15,3 @@ export default {
   }
 }
 </script>
-
-<style>
-.home {
-    padding: 30px;
-}
-</style>

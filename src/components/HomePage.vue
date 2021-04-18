@@ -1,7 +1,7 @@
 <template>
-  <div class="hello">
+  <div>
 
-<h3 class="websitewip">Website status</h3>
+    <h3 class="websitewip">Website status</h3>
     <p>I'm in the process of migrating this website to Vue so you won't see everything here just yet but you can see the most interesting projects below.</p>
 
     <h1>Chris Wood</h1>
@@ -89,6 +89,34 @@
         </v-row>
     </v-container>
 
+    <h2>Electronics</h2>
+    <v-container style="max-width: 1000px">
+        <v-row no-gutters class="justify-center">
+            <v-col v-for="electronic in electronics" :key="electronic.title" cols="1" class="widecard">
+                <v-card class="pa-2 cardmargin" max-width="300">                    
+                    <v-img :src="electronic.imagesrc" class="white--text align-end" gradient="to bottom, rgba(0,0,0,.1), rgba(0,0,0,.4)">
+                        <v-card-title v-text="electronic.title"></v-card-title>
+                    </v-img>
+                    <v-card-text v-text="electronic.description"></v-card-text>
+                    <v-card-actions>
+                        <v-btn color="secondary" elevation="2" :href="electronic.url">
+                            <v-icon left>
+                                mdi-power-plug
+                            </v-icon>
+                            Read More
+                        </v-btn>
+                        <v-btn color="secondary" elevation="2" :href="electronic.githuburl" target="_blank" rel="noopener noreferrer">
+                            <v-icon left>
+                                mdi-github
+                            </v-icon>
+                            Code
+                        </v-btn>
+                    </v-card-actions>
+                </v-card>
+            </v-col>
+        </v-row>
+    </v-container>
+
   </div>
 </template>
 
@@ -107,6 +135,9 @@ export default {
     ],
     learnings: [
       { title: "OAuth 2 slides", imagesrc: require('../assets/oauth2-slides-icon.jpg'), description: "Slides for an internal presentation I did on OAuth 2, explaining the different grant types and why some are better than others, plus some detail around JWT tokens", url: "https://www.slideshare.net/ChrisWood262/oauth-2"}
+    ],
+    electronics: [
+      { title: "OAuth 2 slides", imagesrc: require('../assets/lightbox/lightbox-rainbow-1.jpg'), description: "Light Box is an electronics project that allows people to interact with a LED strip with some dials and a button to toggle programs, where they can change the colours that appear to the speed of sequeneces and even the LEDs that appear.", url: "/electronics/lightbox", githuburl: "https://gist.github.com/ChrisWoody/4409806fbc3860d5780e14eb9f3f77a0"}
     ]
   })
 }

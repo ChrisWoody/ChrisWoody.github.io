@@ -31,7 +31,9 @@
       <v-spacer></v-spacer>
     </v-app-bar>
 
-    <router-view />
+    <v-main>
+        <router-view />
+    </v-main>
   </v-app>
 </template>
 <style>
@@ -47,6 +49,7 @@
   margin: 0px 10px 0px 10px;
   width: 30px;
 }
+
 </style>
 
 <script>
