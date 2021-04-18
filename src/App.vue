@@ -31,7 +31,7 @@
       <v-spacer></v-spacer>
     </v-app-bar>
 
-    <v-main>
+    <v-main  style="text-align: -webkit-center;">
         <router-view />
     </v-main>
   </v-app>
