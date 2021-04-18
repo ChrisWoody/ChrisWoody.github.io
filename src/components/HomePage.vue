@@ -1,9 +1,6 @@
 <template>
   <div>
 
-    <h3 class="websitewip">Website status</h3>
-    <p>I'm in the process of migrating this website to Vue so you won't see everything here just yet but you can see the most interesting projects below.</p>
-
     <h1>Chris Wood</h1>
     <p>
         <a href="https://www.linkedin.com/in/chris-wood-520350163/" target="_blank" rel="noopener noreferrer">
