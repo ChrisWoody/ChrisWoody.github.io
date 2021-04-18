@@ -117,6 +117,28 @@
         </v-row>
     </v-container>
 
+    <h2>Props</h2>
+    <v-container style="max-width: 1000px">
+        <v-row no-gutters class="justify-center">
+            <v-col v-for="prop in props" :key="prop.title" cols="1" class="widecard">
+                <v-card class="pa-2 cardmargin" max-width="300">                    
+                    <v-img :src="prop.imagesrc" class="white--text align-end" gradient="to bottom, rgba(0,0,0,.1), rgba(0,0,0,.4)">
+                        <v-card-title v-text="prop.title"></v-card-title>
+                    </v-img>
+                    <v-card-text v-text="prop.description"></v-card-text>
+                    <v-card-actions>
+                        <v-btn color="secondary" elevation="2" :href="prop.youtubeurl">
+                            <v-icon left>
+                                mdi-youtube
+                            </v-icon>
+                            Video based on
+                        </v-btn>
+                    </v-card-actions>
+                </v-card>
+            </v-col>
+        </v-row>
+    </v-container>
+
   </div>
 </template>
 
@@ -138,6 +160,9 @@ export default {
     ],
     electronics: [
       { title: "OAuth 2 slides", imagesrc: require('../assets/lightbox/lightbox-rainbow-1.jpg'), description: "Light Box is an electronics project that allows people to interact with a LED strip with some dials and a button to toggle programs, where they can change the colours that appear to the speed of sequeneces and even the LEDs that appear.", url: "/electronics/lightbox", githuburl: "https://gist.github.com/ChrisWoody/4409806fbc3860d5780e14eb9f3f77a0"}
+    ],
+    props: [
+      { title: "Foam Sword", imagesrc: require('../assets/foam-sword.jpg'), description: "A basic sword made out of foam and PVC pipe, along with faux leather for the handle. It was a good entry into the prop making world.", youtubeurl: "https://www.youtube.com/watch?v=yU1h_eh4iKE"}
     ]
   })
 }
