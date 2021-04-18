@@ -1,7 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
-import LightBox from '../views/electronics/LightBox.vue'
 
 Vue.use(VueRouter)
 
@@ -14,7 +13,7 @@ const routes = [
   {
     path: '/electronics/lightbox',
     name: 'LightBox',
-    component: LightBox
+    component: () => import('../views/electronics/LightBox.vue')
   },
   {
     path: '/about',

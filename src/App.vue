@@ -29,6 +29,7 @@
         />
       </a>
       <v-spacer></v-spacer>
+    <router-link to="/about">About</router-link>
     </v-app-bar>
 
     <v-main>
