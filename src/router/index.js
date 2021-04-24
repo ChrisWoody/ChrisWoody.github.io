@@ -16,6 +16,11 @@ const routes = [
     component: () => import('../views/electronics/LightBox.vue')
   },
   {
+    path: '/props/w40kpauldron',
+    name: 'W40kPauldron',
+    component: () => import('../views/props/W40kPauldron.vue')
+  },
+  {
     path: '/about',
     name: 'About',
     component: () => import('../views/About.vue')

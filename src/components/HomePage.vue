@@ -124,12 +124,22 @@
                     </v-img>
                     <v-card-text v-text="prop.description"></v-card-text>
                     <v-card-actions>
-                        <v-btn color="secondary" elevation="2" :href="prop.youtubeurl">
-                            <v-icon left>
-                                mdi-youtube
-                            </v-icon>
-                            Video based on
-                        </v-btn>
+                        <template v-if="prop.youtubeurl != null">
+                            <v-btn color="secondary" elevation="2" :href="prop.youtubeurl">
+                                <v-icon left>
+                                    mdi-youtube
+                                </v-icon>
+                                Video based on
+                            </v-btn>
+                        </template>
+                        <template v-if="prop.moreinfourl != null">
+                            <v-btn color="secondary" elevation="2" :href="prop.moreinfourl">
+                                <v-icon left>
+                                    mdi-post
+                                </v-icon>
+                                More info
+                            </v-btn>
+                        </template>
                     </v-card-actions>
                 </v-card>
             </v-col>
@@ -156,10 +166,11 @@ export default {
       { title: "OAuth 2 slides", imagesrc: require('../assets/oauth2-slides-icon.jpg'), description: "Slides for an internal presentation I did on OAuth 2, explaining the different grant types and why some are better than others, plus some detail around JWT tokens", url: "https://www.slideshare.net/ChrisWood262/oauth-2"}
     ],
     electronics: [
-      { title: "OAuth 2 slides", imagesrc: require('../assets/lightbox/lightbox-rainbow-1.jpg'), description: "Light Box is an electronics project that allows people to interact with a LED strip with some dials and a button to toggle programs, where they can change the colours that appear to the speed of sequeneces and even the LEDs that appear.", url: "/electronics/lightbox", githuburl: "https://gist.github.com/ChrisWoody/4409806fbc3860d5780e14eb9f3f77a0"}
+      { title: "Light Box", imagesrc: require('../assets/lightbox/lightbox-rainbow-1.jpg'), description: "Light Box is an electronics project that allows people to interact with a LED strip with some dials and a button to toggle programs, where they can change the colours that appear to the speed of sequeneces and even the LEDs that appear.", url: "/electronics/lightbox", githuburl: "https://gist.github.com/ChrisWoody/4409806fbc3860d5780e14eb9f3f77a0"}
     ],
     props: [
-      { title: "Foam Sword", imagesrc: require('../assets/foam-sword.jpg'), description: "A basic sword made out of foam and PVC pipe, along with faux leather for the handle. It was a good entry into the prop making world.", youtubeurl: "https://www.youtube.com/watch?v=yU1h_eh4iKE"}
+      { title: "Foam Sword", imagesrc: require('../assets/foam-sword.jpg'), description: "A basic sword made out of foam and PVC pipe, along with faux leather for the handle. It was a good entry into the prop making world.", youtubeurl: "https://www.youtube.com/watch?v=yU1h_eh4iKE"},
+      { title: "W40k Pauldron", imagesrc: require('../assets/w40kpauldron/website-icon.jpg'), description: "A foam prop in the style of a Warhammer 40k Pauldron, painted with the livery of the Salamanders Space Marines chapter.", moreinfourl: "/props/w40kpauldron"}
     ]
   })
 }
