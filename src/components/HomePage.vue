@@ -14,145 +14,22 @@
       Hello and welcome to my website! Here you'll find various projects I've worked on plus documentation on Azure or security topics.
     </p>
 
-    <h2>Games</h2>
-    <v-container style="max-width: 1000px">
-        <v-row no-gutters class="justify-center">
-            <v-col v-for="game in games" :key="game.title" cols="1" class="widecard">
-                <v-card class="pa-2 cardmargin" max-width="300">                    
-                    <v-img :src="game.imagesrc" class="white--text align-end" gradient="to bottom, rgba(0,0,0,.1), rgba(0,0,0,.4)">
-                        <v-card-title v-text="game.title"></v-card-title>
-                    </v-img>
-                    <v-card-text v-text="game.description"></v-card-text>
-                    <v-card-actions>
-                        <v-btn color="primary" elevation="2" :href="game.playurl" target="_blank" rel="noopener noreferrer">
-                            <v-icon left>
-                                mdi-controller-classic
-                            </v-icon>
-                            Play
-                        </v-btn>
-                        <v-btn color="secondary" elevation="2" :href="game.githuburl" target="_blank" rel="noopener noreferrer">
-                            <v-icon left>
-                                mdi-github
-                            </v-icon>
-                            View Code
-                        </v-btn>
-                    </v-card-actions>
-                </v-card>
-            </v-col>
-        </v-row>
-    </v-container>
-
-    <h2>Programming</h2>
-    <v-container style="max-width: 1000px">
-        <v-row no-gutters class="justify-center">
-            <v-col v-for="programming in programmings" :key="programming.title" cols="1" class="widecard">
-                <v-card class="pa-2 cardmargin" max-width="300">                    
-                    <v-img :src="programming.imagesrc" class="white--text align-end" gradient="to bottom, rgba(0,0,0,.1), rgba(0,0,0,.4)">
-                        <v-card-title v-text="programming.title"></v-card-title>
-                    </v-img>
-                    <v-card-text v-text="programming.description"></v-card-text>
-                    <v-card-actions>
-                        <v-btn color="secondary" elevation="2" :href="programming.githuburl" target="_blank" rel="noopener noreferrer">
-                            <v-icon left>
-                                mdi-github
-                            </v-icon>
-                            View Code
-                        </v-btn>
-                    </v-card-actions>
-                </v-card>
-            </v-col>
-        </v-row>
-    </v-container>
-
-    <h2>Learning</h2>
-    <v-container style="max-width: 1000px">
-        <v-row no-gutters class="justify-center">
-            <v-col v-for="learning in learnings" :key="learning.title" cols="1" class="widecard">
-                <v-card class="pa-2 cardmargin" max-width="300">                    
-                    <v-img :src="learning.imagesrc" class="white--text align-end" gradient="to bottom, rgba(0,0,0,.1), rgba(0,0,0,.4)">
-                        <v-card-title v-text="learning.title"></v-card-title>
-                    </v-img>
-                    <v-card-text v-text="learning.description"></v-card-text>
-                    <v-card-actions>
-                        <v-btn color="secondary" elevation="2" :href="learning.url" target="_blank" rel="noopener noreferrer">
-                            <v-icon left>
-                                mdi-presentation
-                            </v-icon>
-                            View
-                        </v-btn>
-                    </v-card-actions>
-                </v-card>
-            </v-col>
-        </v-row>
-    </v-container>
-
-    <h2>Electronics</h2>
-    <v-container style="max-width: 1000px">
-        <v-row no-gutters class="justify-center">
-            <v-col v-for="electronic in electronics" :key="electronic.title" cols="1" class="widecard">
-                <v-card class="pa-2 cardmargin" max-width="300">                    
-                    <v-img :src="electronic.imagesrc" class="white--text align-end" gradient="to bottom, rgba(0,0,0,.1), rgba(0,0,0,.4)">
-                        <v-card-title v-text="electronic.title"></v-card-title>
-                    </v-img>
-                    <v-card-text v-text="electronic.description"></v-card-text>
-                    <v-card-actions>
-                        <v-btn color="secondary" elevation="2" :href="electronic.url">
-                            <v-icon left>
-                                mdi-power-plug
-                            </v-icon>
-                            Read More
-                        </v-btn>
-                        <v-btn color="secondary" elevation="2" :href="electronic.githuburl" target="_blank" rel="noopener noreferrer">
-                            <v-icon left>
-                                mdi-github
-                            </v-icon>
-                            Code
-                        </v-btn>
-                    </v-card-actions>
-                </v-card>
-            </v-col>
-        </v-row>
-    </v-container>
-
-    <h2>Props</h2>
-    <v-container style="max-width: 1000px">
-        <v-row no-gutters class="justify-center">
-            <v-col v-for="prop in props" :key="prop.title" cols="1" class="widecard">
-                <v-card class="pa-2 cardmargin" max-width="300">                    
-                    <v-img :src="prop.imagesrc" class="white--text align-end" gradient="to bottom, rgba(0,0,0,.1), rgba(0,0,0,.4)">
-                        <v-card-title v-text="prop.title"></v-card-title>
-                    </v-img>
-                    <v-card-text v-text="prop.description"></v-card-text>
-                    <v-card-actions>
-                        <template v-if="prop.youtubeurl != null">
-                            <v-btn color="secondary" elevation="2" :href="prop.youtubeurl">
-                                <v-icon left>
-                                    mdi-youtube
-                                </v-icon>
-                                Video based on
-                            </v-btn>
-                        </template>
-                        <template v-if="prop.moreinfourl != null">
-                            <v-btn color="secondary" elevation="2" :href="prop.moreinfourl">
-                                <v-icon left>
-                                    mdi-post
-                                </v-icon>
-                                More info
-                            </v-btn>
-                        </template>
-                    </v-card-actions>
-                </v-card>
-            </v-col>
-        </v-row>
-    </v-container>
+    <HomeSection title="Games" v-bind:items="games" />
+    <HomeSection title="Programming" v-bind:items="programmings" />
+    <HomeSection title="Learning" v-bind:items="learnings" />
+    <HomeSection title="Electronics" v-bind:items="electronics" />
+    <HomeSection title="Props" v-bind:items="props" />
 
   </div>
 </template>
 
 <script>
+import HomeSection from "@/components/HomeSection.vue";
 export default {
   name: 'HomePage',
-
+  components: {
+    HomeSection,
+  },
   data: () => ({
     games: [
       { title: "Spear Cat", imagesrc: require("../assets/spear-cat-icon.jpg"), description: "Play as a Cat with a Spear to fight off the endless alien hordes", playurl: "https://chriswoodcodes.net/SpearCat/", githuburl: "https://github.com/ChrisWoody/SpearCat/"},
@@ -163,47 +40,19 @@ export default {
       { title: "Project Grimaldus", imagesrc: require('../assets/project-grimaldus-icon.jpg'), description: "This website! It's changed frameworks and looks over the years with the current plan to get it running fully in Vue", githuburl: "https://github.com/ChrisWoody/ChrisWoody.github.io"}
     ],
     learnings: [
-      { title: "OAuth 2 slides", imagesrc: require('../assets/oauth2-slides-icon.jpg'), description: "Slides for an internal presentation I did on OAuth 2, explaining the different grant types and why some are better than others, plus some detail around JWT tokens", url: "https://www.slideshare.net/ChrisWood262/oauth-2"}
+      { title: "OAuth 2 slides", imagesrc: require('../assets/oauth2-slides-icon.jpg'), description: "Slides for an internal presentation I did on OAuth 2, explaining the different grant types and why some are better than others, plus some detail around JWT tokens", slidesurl: "https://www.slideshare.net/ChrisWood262/oauth-2"}
     ],
     electronics: [
-      { title: "Light Box", imagesrc: require('../assets/lightbox/lightbox-rainbow-1.jpg'), description: "Light Box is an electronics project that allows people to interact with a LED strip with some dials and a button to toggle programs, where they can change the colours that appear to the speed of sequeneces and even the LEDs that appear.", url: "/electronics/lightbox", githuburl: "https://gist.github.com/ChrisWoody/4409806fbc3860d5780e14eb9f3f77a0"}
+      { title: "Light Box", imagesrc: require('../assets/lightbox/lightbox-rainbow-1.jpg'), description: "Light Box is an electronics project that allows people to interact with a LED strip with some dials and a button to toggle programs, where they can change the colours that appear to the speed of sequeneces and even the LEDs that appear.", readmoreurl: "/electronics/lightbox", githuburl: "https://gist.github.com/ChrisWoody/4409806fbc3860d5780e14eb9f3f77a0"}
     ],
     props: [
       { title: "Foam Sword", imagesrc: require('../assets/foam-sword.jpg'), description: "A basic sword made out of foam and PVC pipe, along with faux leather for the handle. It was a good entry into the prop making world.", youtubeurl: "https://www.youtube.com/watch?v=yU1h_eh4iKE"},
-      { title: "W40k Pauldron", imagesrc: require('../assets/w40kpauldron/website-icon.jpg'), description: "A foam prop in the style of a Warhammer 40k Pauldron, painted with the livery of the Salamanders Space Marines chapter.", moreinfourl: "/props/w40kpauldron"}
+      { title: "W40k Pauldron", imagesrc: require('../assets/w40kpauldron/website-icon.jpg'), description: "A foam prop in the style of a Warhammer 40k Pauldron, painted with the livery of the Salamanders Space Marines chapter.", readmoreurl: "/props/w40kpauldron"}
     ]
   })
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.websitewip {
-    color: orange;
-}
-.smallicon {
-  margin: 0px 10px 0px 10px;
-  width: 30px;
-}
-.widecard {
-    max-width: 100%;
-}
-.cardmargin {
-    margin: 5px;
-}
 
-h3 {
-  margin: 40px 0 0;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
-}
 </style>
