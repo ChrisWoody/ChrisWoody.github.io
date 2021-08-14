@@ -15,10 +15,10 @@
     </p>
 
     <HomeSection title="Games" v-bind:items="games" />
+    <HomeSection title="Props" v-bind:items="props" />
+    <HomeSection title="Electronics" v-bind:items="electronics" />
     <HomeSection title="Programming" v-bind:items="programmings" />
     <HomeSection title="Learning" v-bind:items="learnings" />
-    <HomeSection title="Electronics" v-bind:items="electronics" />
-    <HomeSection title="Props" v-bind:items="props" />
 
   </div>
 </template>

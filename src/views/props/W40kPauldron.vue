@@ -2,10 +2,6 @@
   <div style="text-align: left; max-width: 900px; margin: 10px">
     <h1>W40k Pauldron</h1>
 
-    <div style="text-align: center">
-    <img src="@/assets/w40kpauldron/salamanders-pic.jpg" style="max-width: 200px" />
-    </div>
-
     <h3>What and why</h3>
     <p>
       I love Warhammer and I enjoy making things so I've been keen for a while
