@@ -21,6 +21,11 @@ const routes = [
     component: () => import('../views/props/W40kPauldron.vue')
   },
   {
+    path: '/props/w40kbracer',
+    name: 'W40kBracer',
+    component: () => import('../views/props/W40kBracer.vue')
+  },
+  {
     path: '/about',
     name: 'About',
     component: () => import('../views/About.vue')

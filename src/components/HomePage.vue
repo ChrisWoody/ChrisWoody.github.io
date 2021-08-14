@@ -47,7 +47,8 @@ export default {
     ],
     props: [
       { title: "Foam Sword", imagesrc: require('../assets/foam-sword.jpg'), description: "A basic sword made out of foam and PVC pipe, along with faux leather for the handle. It was a good entry into the prop making world.", youtubeurl: "https://www.youtube.com/watch?v=yU1h_eh4iKE"},
-      { title: "W40k Pauldron", imagesrc: require('../assets/w40kpauldron/website-icon.jpg'), description: "A foam prop in the style of a Warhammer 40k Pauldron, painted with the livery of the Salamanders Space Marines chapter.", readmoreurl: "/props/w40kpauldron"}
+      { title: "W40k Pauldron", imagesrc: require('../assets/w40kpauldron/website-icon.jpg'), description: "A foam prop in the style of a Warhammer 40k Pauldron, painted with the livery of the Salamanders Space Marines chapter.", readmoreurl: "/props/w40kpauldron"},
+      { title: "W40k Bracer", imagesrc: require('../assets/w40kbracer/website-icon.jpg'), description: "A foam prop in the style of a Warhammer 40k Bracer, painted with the colours of the Salamanders Space Marines chapter.", readmoreurl: "/props/w40kbracer"},
     ]
   })
 }
