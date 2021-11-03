@@ -1,6 +1,7 @@
 ---
 title: "Game - Project Sicarius"
 last_modified_at: 2018-06-04T16:20:02+08:00
+show_date: true
 categories:
   - Game
 tags:

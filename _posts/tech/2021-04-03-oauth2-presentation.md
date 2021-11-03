@@ -1,6 +1,7 @@
 ---
 title: "Tech - OAuth2 Presentation"
 last_modified_at: 2021-04-03T16:20:02+08:00
+show_date: true
 categories:
   - Tech
 tags:

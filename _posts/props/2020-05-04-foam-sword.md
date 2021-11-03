@@ -1,6 +1,7 @@
 ---
 title: "Prop - Foam Sword"
 last_modified_at: 2020-05-04T16:20:02+08:00
+show_date: true
 categories:
   - Prop
 tags:

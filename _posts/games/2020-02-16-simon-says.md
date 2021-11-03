@@ -1,6 +1,7 @@
 ---
 title: "Game - Simon Says"
 last_modified_at: 2020-02-16T16:20:02+08:00
+show_date: true
 categories:
   - Game
 tags:
