@@ -5,9 +5,9 @@ Welcome to the source code for my website! It is hosted in Github using the [Min
 ## Installation
 
 - For setting up ruby locally, https://jekyllrb.com/docs/installation/windows/
-- Probably other steps I don't remember
+  - Follow steps, when running `ridk intall` accept default 1-3 selection
 
 ## Running locally
 
-- (probably other commands here)
+- `bunlde install`
 - `bundle exec jekyll serve`
