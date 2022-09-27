@@ -18,7 +18,7 @@ The goal for making this game was to play around with shaders in Unity via Shade
 
 <div>
     <a href="https://chriswoodcodes.net/HoverTankFinalStand/" class="btn btn--info">Play in your browser</a>
-    <a href="https://github.com/ChrisWoody/HoverTankFinalStand/releases/tag/release" rel="noreferrer noopener" target="_blank" class="btn btn--primary">Download and play on Windows</a>
+    <a href="https://github.com/ChrisWoody/HoverTankFinalStand/releases" rel="noreferrer noopener" target="_blank" class="btn btn--primary">Download and play on Windows</a>
     <a href="https://github.com/ChrisWoody/HoverTankFinalStand/" rel="noreferrer noopener" target="_blank" class="btn btn--primary">View the code on GitHub</a>
 </div>
 
