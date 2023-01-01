@@ -9,5 +9,5 @@ Welcome to the source code for my website! It is hosted in Github using the [Min
 
 ## Running locally
 
-- `bunlde install`
+- `bundle install`
 - `bundle exec jekyll serve`
