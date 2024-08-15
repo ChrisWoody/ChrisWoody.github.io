@@ -21,4 +21,4 @@ First proper game using Godot. You control a Robot and fight off endless enemy R
 
 <br />
 
-<img style="margin-left:auto;margin-right:auto;display:block" src="/assets/images/robot-vs-robots/robot-vs-robots-icon.png">
+<img style="margin-left:auto;margin-right:auto;display:block" src="/assets/images/robot-vs-robots/robot-vs-robots-bigger.png">
