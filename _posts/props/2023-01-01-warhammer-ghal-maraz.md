@@ -9,6 +9,7 @@ tags:
   - Foam
 header:
   teaser: /assets/images/ghal-maraz/shrunk/19-finishedside.jpg
+excerpt: Foam prop of the Warhammer warhammer.
 ---
 
 I've been wanting to work on a larger prop project in the Warhammer space for a while so I started looking around for ideas and stumbled upon a template for Ghal Maraz ([look at it here](https://www.etsy.com/au/listing/673459646/hammer-of-sigmar-ghal-maraz-templates)). I thought it looked cool and big, but also achievable as a first major project. You can find a bit more info about Ghal Maraz on the [Fandom page](https://ageofsigmar.fandom.com/wiki/Ghal_Maraz).

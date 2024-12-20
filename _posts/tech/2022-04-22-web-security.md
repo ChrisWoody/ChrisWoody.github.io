@@ -44,6 +44,7 @@ gallery:
     image_path: /assets/images/web-security-presentation/Slide17.png
 header:
   teaser: /assets/images/web-security-presentation/Slide1.png
+excerpt: Slides from a presentation covering website security.
 ---
 
 In an effort to learn more about web security and to teach others about it I ran a small workshop on the common security misconfigurations that can be found on websites.

@@ -9,6 +9,7 @@ tags:
   - WebGL
 header:
   teaser: assets/images/gravity-assist/gravity-assist-icon.png
+excerpt: Use gravity of planets to direct your spaceship to the portal.
 ---
 
 A 2D game where you have to use the gravity of planets to direct your spaceship to reach the portal, while avoiding the astroids and flinging yourself into space.

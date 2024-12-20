@@ -12,6 +12,7 @@ gallery:
     image_path: /assets/images/azure-challenges-website/icon.png
 header:
   teaser: /assets/images/azure-challenges-website/icon.png
+excerpt: Website to learn and implement various Azure concepts and services.
 ---
 
 <img style="margin-left:auto;margin-right:auto;display:block" src="/assets/images/azure-challenges-website/icon.png">

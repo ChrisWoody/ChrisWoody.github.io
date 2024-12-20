@@ -10,6 +10,7 @@ tags:
   - C#
 header:
   teaser: /assets/images/space-ship-dodge-asteroids-and-meteors/space-ship-dodge-asteroids-and-meteors-icon.png
+excerpt: Move the spaceship to avoid the asteroids and meteors.
 ---
 
 Very simple game where you control a Space Ship and need to move it left/right to avoid the Asteroids and Meteors. The longer you avoid them the higher your score. The game and music will slow down if you get hit but ramp back up to normal.

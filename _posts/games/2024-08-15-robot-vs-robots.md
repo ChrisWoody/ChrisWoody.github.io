@@ -9,6 +9,7 @@ tags:
   - WebGL
 header:
   teaser: assets/images/robot-vs-robots/robot-vs-robots-icon.png
+excerpt: Control a robot and fight off endless enemy robots.
 ---
 
 First proper game using Godot. You control a Robot and fight off endless enemy Robots in a small area, if you get hit you fail but can try again straight away.

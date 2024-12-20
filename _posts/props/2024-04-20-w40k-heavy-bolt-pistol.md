@@ -9,6 +9,7 @@ tags:
   - Foam
 header:
   teaser: /assets/images/heavy-bolt-pistol/shrunk/41-finished-side1.jpg
+excerpt: Foam prop of a heavy bolt pistol from Warhammer 40k.
 ---
 
 I was keen to make another Warhammer prop this time in the 40k setting, and knew I wanted to do a gun but wasn't sure what kind. Settled on the bolt pistol for a balance of time and difficultly.
