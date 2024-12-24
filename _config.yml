@@ -59,9 +59,6 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Chris Wood"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Hi! I enjoy video games and programming, plus Azure and security, all of which you can find on my website."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
