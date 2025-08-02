@@ -7,6 +7,18 @@ collection: games
 
 <div class="post__item">
   <article class="archive__item" itemscope>
+    <h2 class="archive__item-title no_toc" itemprop="headline">Test 2d puzzle game</h2>
+    <div class="archive__item-teaser">
+        <img style="max-width: 400px" src="/assets/images/test2dpuzzlegame/test2dpuzzlegame-icon.png" alt="">
+    </div>
+    <p class="archive__item-excerpt" itemprop="description">A spike of some 2d puzzles, potentially as part of a larger game.</p>
+    <a href="https://chriswoodcodes.net/Test2dPuzzleGame/" rel="noreferrer noopener" target="_blank" class="btn btn--info">Play now</a>
+    <a href="https://github.com/ChrisWoody/Test2dPuzzleGame/" rel="noreferrer noopener" target="_blank" class="btn btn--primary">Source code</a>
+  </article>
+</div>
+
+<div class="post__item">
+  <article class="archive__item" itemscope>
     <h2 class="archive__item-title no_toc" itemprop="headline">Gravity Assist</h2>
     <div class="archive__item-teaser">
         <img style="max-width: 400px" src="/assets/images/gravity-assist/gravity-assist-bigger.png" alt="">
