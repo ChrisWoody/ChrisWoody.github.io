@@ -34,7 +34,7 @@ I utilized Inkscape to trace around images of the model, including trying to cap
 - [Knife](https://www.luminsworkshop.com/collections/tools/products/metal-body-snap-knife) for cutting out foam
 - [Silver sharpy](https://www.officeworks.com.au/shop/officeworks/p/sharpie-fine-permanent-marker-metallic-silver-sa20045090) for tracing out template
 - [Heat gun](https://www.bunnings.com.au/makita-1800w-heat-gun-kit-with-accessories_p0066619) for sealing the foam
-- [Respirator](https://www.bunnings.com.au/3m-reusable-gas-vapour-respirator_p0234919) when working with contact cement or heat-sealing the foam or sand-papering the foam and resin, **very important!**
+- [Respirator](https://www.bunnings.com.au/3m-reusable-gas-vapour-respirator_p0234919) when working with contact cement or heat-sealing the foam, **very important!**
 - [Safety glasses](https://www.bunnings.com.au/3m-clear-overspecs-safety-glasses_p8905722) when working with contact cement, you don't want that stuff in your eyes
 - [Ruler](https://www.bunnings.com.au/crescent-lufkin-300mm-12-stainless-steel-rule_p5663176) for general measuring
 - [Craft knife](https://www.officeworks.com.au/shop/officeworks/p/fiskars-softgrip-craft-knife-fi67007097) helpful for cutting paper
@@ -186,7 +186,7 @@ When it dried the black was more grey and didn't look like I was hoping. I ended
 
 <a href="/assets/images/tyranid-bonesword/41-highlightingbeforeitdries.jpg">![41-highlightingbeforeitdries.jpg](/assets/images/tyranid-bonesword/shrunk/41-highlightingbeforeitdries.jpg)</a>
 
-To help highlight the edges I used a mix of red and a little bit of black (as it was quite strong), then using the side of a small brush run it over the whole sword, focussing on the main edges but even the main body.
+To help highlight the edges I used a mix of red and a little bit of black (as it was quite strong), then using the side of a small brush run it over the whole sword, focussing on the main edges and even the main body.
 
 The picture above is just after the paint was applied, so looks a bit brighted before it dried it darker, which was still lighter than the base and shade colours.
 
