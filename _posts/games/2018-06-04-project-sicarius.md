@@ -15,7 +15,7 @@ header:
 You play as an Angel who has to take out the invading Demons. This was just a quick game I hacked together to learn more about how to use pathfinding and animations in Unity.
 
 <div>
-    <a href="https://chriswoodcodes.net/project-sicarius-build/" class="btn btn--info">Play in your browser</a>
+    <a href="https://chriswoodcodes.net/project-sicarius-build/" rel="noreferrer noopener" target="_blank" class="btn btn--info">Play in your browser</a>
     <a href="https://github.com/ChrisWoody/project-sicarius/" rel="noreferrer noopener" target="_blank" class="btn btn--primary">View the code on GitHub</a>
 </div>
 
@@ -23,7 +23,7 @@ You play as an Angel who has to take out the invading Demons. This was just a qu
 
 <img style="margin-left:auto;margin-right:auto;display:block" src="/assets/images/project-sicarius/project-sicarius-icon.jpg">
 
-What I learnt from this game I was able to apply into [Spear Cat](/game/spear-cat/).
+What I learnt from this game I was able to apply into [Spear Cat](/Game/spear-cat/).
 
 ## What is a 'Sicarius'?
 

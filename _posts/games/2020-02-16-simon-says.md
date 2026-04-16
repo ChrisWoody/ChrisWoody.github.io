@@ -8,6 +8,7 @@ tags:
   - Javascript
 header:
   teaser: /assets/images/simon-says/simon-says-icon.jpg
+excerpt: A classic Simon Says memory game implemented in raw Javascript.
 ---
 
 Simon Says is a classic game having to remember a randomly generated sequence of colors, with the goal of remembering as many in the sequence as possible.
@@ -15,7 +16,7 @@ Simon Says is a classic game having to remember a randomly generated sequence of
 I implemented this in Unity a while ago but wanted try implement it in raw Javascript to learn a bit more about the language.
 
 <div>
-    <a href="https://chriswoodcodes.net/simon-says/" class="btn btn--info">Play in your browser</a>
+    <a href="https://chriswoodcodes.net/simon-says/" rel="noreferrer noopener" target="_blank" class="btn btn--info">Play in your browser</a>
     <a href="https://github.com/ChrisWoody/simon-says/" rel="noreferrer noopener" target="_blank" class="btn btn--primary">View the code on GitHub</a>
 </div>
 

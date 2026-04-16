@@ -8,11 +8,11 @@ tags:
   - Godot
   - WebGL
 header:
-  teaser: assets/images/gravity-assist/gravity-assist-icon.png
+  teaser: /assets/images/gravity-assist/gravity-assist-icon.png
 excerpt: Use gravity of planets to direct your spaceship to the portal.
 ---
 
-A 2D game where you have to use the gravity of planets to direct your spaceship to reach the portal, while avoiding the astroids and flinging yourself into space.
+A 2D game where you have to use the gravity of planets to direct your spaceship to reach the portal, while avoiding the asteroids and flinging yourself into space.
 
 <div>
     <a href="https://chriswoodcodes.net/GravityAssist/" rel="noreferrer noopener" target="_blank" class="btn btn--info">Play in your browser</a>

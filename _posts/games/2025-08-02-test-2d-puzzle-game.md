@@ -8,8 +8,8 @@ tags:
   - Godot
   - WebGL
 header:
-  teaser: assets/images/test2dpuzzlegame/test2dpuzzlegame-icon.png
-excerpt: Use gravity of planets to direct your spaceship to the portal.
+  teaser: /assets/images/test2dpuzzlegame/test2dpuzzlegame-icon.png
+excerpt: A spike of some 2d puzzles, potentially as part of a larger game.
 ---
 
 A spike of some 2d puzzles, potentially as part of a larger game.

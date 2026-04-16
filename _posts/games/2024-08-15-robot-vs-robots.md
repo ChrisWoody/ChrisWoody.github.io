@@ -8,7 +8,7 @@ tags:
   - Godot
   - WebGL
 header:
-  teaser: assets/images/robot-vs-robots/robot-vs-robots-icon.png
+  teaser: /assets/images/robot-vs-robots/robot-vs-robots-icon.png
 excerpt: Control a robot and fight off endless enemy robots.
 ---
 
